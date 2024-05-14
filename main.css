@@ -1,0 +1,95 @@
+.header {
+    text-align: center;
+    color: lightsteelblue;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    opacity: 0;
+    animation: slideAndFadeIn 1s ease-in-out forwards;
+}
+
+body {
+    background: linear-gradient(to bottom, #08bdb7, #3c57f0);
+    min-height: 100%;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+@keyframes slideAndFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(0px);
+    }
+}
+
+.quiz-container {
+    max-width: 600px;
+    background-color: darkgreen;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.progress-bar-container {
+    height: 10px;
+    background-color: darkgray;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.progress-bar {
+    height: 10px;
+    background-color: chartreuse;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.timer {
+    text-align: center;
+    background-color: yellow;
+    color: lightslategray;
+    font-size: 48px;
+    border-radius: 10%;
+    margin: auto;
+    width: 100px;
+    padding: 80px 60px;
+    margin-top: 100px;
+    font-family: "Press Start 2P", cursive;
+}
+
+.option-container {
+    margin: 15px;
+    height: fit-content;
+    background-color: cornflowerblue;
+    margin-top: 15px;
+    padding: 2px;
+}
+
+/* oposite of block is inline */
+
+.option-btn {
+    display: block;
+    width: 100%;
+    height: 25px;
+    margin-bottom: 5px;
+    background-color: plum;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.option-btn:hover {
+    background-color: rgb(244, 201, 244);
+}

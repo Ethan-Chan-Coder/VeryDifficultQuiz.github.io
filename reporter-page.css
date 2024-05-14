@@ -1,0 +1,10 @@
+.rpbut{
+    height: 100px;
+    width: 300px;
+    color: purple;
+    background: linear-gradient(to bottom, #06147a, #a6b6ff);
+    font-weight: 1000;
+    font-size: xx-large;
+    display: block;
+    margin: auto;
+}
